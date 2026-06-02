@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Medina Fight Lab</title>
+  <meta name="description" content="Get in touch with Medina Fight Lab for virtual coaching inquiries, programming questions, and collaboration requests. Response within 48 hours." />
+  <meta property="og:title" content="Contact | Medina Fight Lab" />
+  <meta property="og:description" content="Virtual coaching inquiries, programming questions, and collaboration requests." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="/public/logo.jpg" />
+  <link rel="icon" href="/public/logo.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+  <div class="nav-top-accent"></div>
+  <nav class="navbar">
+    <div class="container">
+      <a class="nav-logo" href="/index.html">
+        <img src="/public/logo.jpg" alt="Medina Fight Lab logo" />
+        <span class="nav-logo-text">Medina Fight Lab</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/services.html">Services</a></li>
+        <li><a href="/blog.html">Blog</a></li>
+        <li><a class="active" href="/contact.html">Contact</a></li>
+        <li><a class="nav-cta" href="/contact.html">Work With Me</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <header class="page-header">
+    <div class="container">
+      <span class="eyebrow">Contact</span>
+      <h1>Get in Touch</h1>
+      <p class="lead">Virtual coaching inquiries, programming questions, and collaboration requests.</p>
+    </div>
+  </header>
+
+  <!-- CONTACT -->
+  <section class="section section--charcoal">
+    <div class="container">
+      <div class="contact-grid">
+        <!-- FORM -->
+        <div>
+          <!-- Replace YOUR_FORMSPREE_ID with your real Formspree form ID (e.g. xayzwabc) -->
+          <form action="https://formspree.io/f/xqejrbwe" method="POST">
+            <div class="form-field">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-field">
+              <label for="subject">Subject</label>
+              <select id="subject" name="subject" required>
+                <option value="" disabled selected>Select a topic…</option>
+                <option>Virtual Coaching Inquiry</option>
+                <option>Programming Question</option>
+                <option>Speaking/Collaboration</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+            <button class="btn btn--primary btn--full" type="submit">Send Message</button>
+          </form>
+        </div>
+
+        <!-- ASIDE -->
+        <aside class="contact-aside">
+          <h3>Connect</h3>
+          <hr class="rule" />
+          <p style="margin-bottom:1rem;">Follow training breakdowns and applied exercise science on Instagram:</p>
+          <p><a href="https://instagram.com/medinafightlab" target="_blank" rel="noopener">@medinafightlab</a></p>
+          <p class="contact-note">Response time: within 48 hours</p>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <div class="footer-brand">
+            <img src="/public/logo.jpg" alt="Medina Fight Lab logo" />
+            <span class="nav-logo-text">Medina Fight Lab</span>
+          </div>
+          <p class="footer-tag">Science-Based Coaching for Combat Athletes</p>
+        </div>
+        <ul class="footer-links">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/services.html">Services</a></li>
+          <li><a href="/blog.html">Blog</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+        <p class="footer-ig"><a href="https://instagram.com/medinafightlab" target="_blank" rel="noopener">@medinafightlab</a></p>
+      </div>
+      <div class="footer-bottom">© 2026 Medina Fight Lab | Dylan Medina</div>
+    </div>
+  </footer>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>
