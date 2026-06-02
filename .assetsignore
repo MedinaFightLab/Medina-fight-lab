@@ -1,0 +1,7 @@
+.git
+.gitignore
+.assetsignore
+README.md
+public/README-IMAGES.txt
+wrangler.jsonc
+.wrangler
