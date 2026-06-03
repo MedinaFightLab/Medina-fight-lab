@@ -1,6 +1,9 @@
 .DS_Store
 Thumbs.db
 node_modules/
+
+# Business playbooks / docs — not part of the website, never deploy
+_playbooks/
 *.log
 .vscode/
 
