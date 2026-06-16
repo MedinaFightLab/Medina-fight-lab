@@ -23,10 +23,14 @@ DEFAULT_PAGE = ("0.7", "monthly")   # any new top-level page
 DEFAULT_POST = ("0.7", "monthly")   # any blog/*.html post
 
 def loc(relpath):
-    # index.html -> root; everything else -> /relpath
+    # extensionless (clean) URLs: index.html -> /, about.html -> /about,
+    # blog/recovery.html -> /blog/recovery
     if relpath == "index.html":
         return BASE + "/"
-    return BASE + "/" + relpath.replace(os.sep, "/")
+    path = relpath.replace(os.sep, "/")
+    if path.endswith(".html"):
+        path = path[:-5]
+    return BASE + "/" + path
 
 urls = []
 # top-level pages
