@@ -1,0 +1,15 @@
+# Redirect .html pages to extensionless canonical URLs (301 permanent)
+/about.html          /about          301
+/services.html       /services       301
+/blog.html           /blog           301
+/contact.html        /contact        301
+/work-with-me.html   /work-with-me   301
+/free.html           /free           301
+
+# Blog posts
+/blog/energy-systems.html      /blog/energy-systems      301
+/blog/periodization.html       /blog/periodization       301
+/blog/recovery.html            /blog/recovery            301
+/blog/rotational-power.html    /blog/rotational-power    301
+/blog/shoulder-protocols.html  /blog/shoulder-protocols  301
+/blog/weight-cutting.html      /blog/weight-cutting      301
