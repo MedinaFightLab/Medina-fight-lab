@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Free Training Guides | Medina Fight Lab</title>
   <link rel="canonical" href="https://medinafightlab.com/free" />
-  <meta name="description" content="Two free evidence-based training guides for combat athletes — The Gladiator's Shoulder and Lean &amp; Lethal 6-Day Muay Thai. Enter your email and download instantly." />
+  <meta name="description" content="Three free evidence-based training guides for combat athletes — The Gladiator's Shoulder, Lean &amp; Lethal, and the new Fast &amp; Lethal 6-Day Muay Thai power &amp; speed block. Enter your email and download instantly." />
   <meta property="og:title" content="Free Training Guides | Medina Fight Lab" />
-  <meta property="og:description" content="Two free S&amp;C guides for fighters. Download instantly." />
+  <meta property="og:description" content="Three free S&amp;C guides for fighters — including the new Fast &amp; Lethal power &amp; speed block. Download instantly." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://medinafightlab.com/free" />
   <meta property="og:image" content="https://medinafightlab.com/public/og-share.jpg" />
@@ -65,7 +65,7 @@
     <div class="container">
       <span class="eyebrow">Free Downloads</span>
       <h1>Free Training Guides</h1>
-      <p class="lead">Two complete, evidence-based programs for combat athletes. Drop your email and get instant access to both — no cost, no catch.</p>
+      <p class="lead">Three complete, evidence-based programs for combat athletes. Drop your email and get instant access to all of them — no cost, no catch.</p>
     </div>
   </header>
 
@@ -75,8 +75,13 @@
       <div class="grid grid-2" style="align-items:start;">
         <div>
           <span class="eyebrow">What You Get</span>
-          <h2 class="section-title" style="font-size:clamp(1.6rem,4vw,2.4rem);">Two Guides, One Email</h2>
+          <h2 class="section-title" style="font-size:clamp(1.6rem,4vw,2.4rem);">Three Guides, One Email</h2>
           <hr class="rule" />
+          <div class="service-card" style="margin-bottom:1.5rem; border:1px solid var(--crimson);">
+            <span class="cat-tag">New — Power &amp; Speed</span>
+            <h3>Fast &amp; Lethal: 6-Day Power, Speed &amp; Explosiveness Block</h3>
+            <p>The newest program in the Lab. A 6-day Muay Thai block built to make you first and make it hurt — jumps, sprints, throws, and Olympic lifts on fresh legs, heavy strength to raise the ceiling, and single-leg work for kicks and level changes. Full loads, tempo, RPE, R.A.M.P. warm-up, and the Explosive Checklist.</p>
+          </div>
           <div class="service-card" style="margin-bottom:1.5rem;">
             <span class="cat-tag">Injury Prevention</span>
             <h3>The Gladiator's Shoulder</h3>
@@ -92,13 +97,13 @@
         <div>
           <div class="service-card gate">
             <h3>Get Instant Access</h3>
-            <p style="margin-bottom:1.5rem;">Enter your email and both guides unlock right here. We'll also send you the occasional training breakdown — unsubscribe anytime.</p>
+            <p style="margin-bottom:1.5rem;">Enter your email and all three guides unlock right here. We'll also send you the occasional training breakdown — unsubscribe anytime.</p>
             <form id="gate-form" novalidate>
               <div class="form-field">
                 <label for="gate-email">Email Address</label>
                 <div class="gate-row">
                   <input type="email" id="gate-email" name="email" placeholder="you@email.com" required />
-                  <button type="submit" class="btn btn--primary" id="gate-btn">Unlock Both Guides</button>
+                  <button type="submit" class="btn btn--primary" id="gate-btn">Unlock All 3 Guides</button>
                 </div>
                 <p class="gate-msg" id="gate-msg" role="status" aria-live="polite"></p>
               </div>
@@ -108,8 +113,9 @@
 
             <div class="unlock" id="unlock">
               <hr class="rule" />
-              <p style="color:#fff; font-weight:600; margin-bottom:1.25rem;">You're in. Download both below:</p>
-              <a class="btn btn--primary btn--full" href="/downloads/the-gladiators-shoulder.pdf" download style="margin-bottom:1rem;">Download — The Gladiator's Shoulder</a>
+              <p style="color:#fff; font-weight:600; margin-bottom:1.25rem;">You're in. Download all three below:</p>
+              <a class="btn btn--primary btn--full" href="/downloads/fast-and-lethal-6-day-muay-thai.pdf" download style="margin-bottom:1rem;">Download — Fast &amp; Lethal (New)</a>
+              <a class="btn btn--outline btn--full" href="/downloads/the-gladiators-shoulder.pdf" download style="margin-bottom:1rem;">Download — The Gladiator's Shoulder</a>
               <a class="btn btn--outline btn--full" href="/downloads/lean-and-lethal-6-day-muay-thai.pdf" download>Download — Lean &amp; Lethal Muay Thai</a>
               <p class="gate-note">Links also work on mobile. Trouble downloading? Email Dylan via the <a href="/contact" style="color:var(--crimson);">contact page</a>.</p>
             </div>
@@ -185,7 +191,7 @@
         }).catch(function(err){
           msg.textContent = err.message + ' You can also use the contact page.';
           msg.className = 'gate-msg err';
-          btn.disabled = false; btn.textContent = 'Unlock Both Guides';
+          btn.disabled = false; btn.textContent = 'Unlock All 3 Guides';
         });
       });
     })();
